@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
 <body>
 <!-- ---------------------------------------------------------------------HEADER------------------------------------------------------------ -->
-     <div class="header">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<div class="header"  data-aos="fade-up">
         <div class="container header__container">
             <div class="navbar">
                 <img src="./images/scoot.svg" alt="logo">
@@ -18,11 +20,15 @@
                 <li class="navbar_itam"><a href="33" class="header_link">Careers</a></li>
             </ul>
             <button class=" button header_button">Get Scootin</button>
+            <script>
+                AOS.init();
+              </script>
             </div>
         </div>
      </div>
 <!-- ------------------------------------------------------------------------------------------HERO----------------------------------------------------------- -->
-      <div class="hero">
+      <div class="hero" data-aos="fade-up"
+      data-aos-anchor-placement="top-center">
         <div class="container hero__container">
             <div class="hero_navbar">
                 <div class="hero_navbar_list">
@@ -36,9 +42,9 @@
         </div>
       </div>
 <!-- ---------------------------------------------------------------------------------------------MAIN-------------------------------------------------------------------------- -->
-       <div class="main">
+       <div class="main" >
           <div class="container main__container">
-            <ul class="main_navbar">
+            <ul class="main_navbar" data-aos="zoom-out-down">
                 <li class="main_navbar_list">
                     <img src="./images/Group 8.svg" alt="rasm" width="96" height="96">
                     <h2 class="main_item">Locate with app</h2>
@@ -53,7 +59,9 @@
                    <p class="main_card">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p></li>
             </ul>
           </div>
-           <div class=" container main_hero">
+           <div class=" container main_hero" data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000">
             <div class="main_hero_card">
                 <h3 class="main_hero_item">Easy to use riding telemetry</h3>
                 <p class="main_hero_cards">The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
@@ -62,7 +70,7 @@
             </div>
             <img src="./images/Group 33 (1).png" alt="rasm">
            </div>
-            <div class="container main_hero">
+            <div class="container main_hero" data-aos="zoom-out-up">
             <img src="./images/Bitmap Copy.jpg" alt="rasm">
             <div class="main_hero_card">
                 <h3 class="main_hero_item">Coming to a city near you</h3>
@@ -71,7 +79,7 @@
                 <img src="./images/Group 13 Copy.svg" alt="rasm" class="main_images">
             </div>
             </div>
-            <div class="container main_hero">
+            <div class="container main_hero" data-aos="flip-down">
             <div class="main_hero_card">
                 <h3 class="main_hero_item">Zero hassle payments</h3>
                 <p class="main_hero_cards">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
@@ -82,7 +90,8 @@
            </div>
        </div>
 <!-- ---------------------------------------------------------------------------SERVICE-----------------------------------------------------------------  -->
-       <div class="service">
+       <div class="service" data-aos="fade-up"
+       data-aos-anchor-placement="center-bottom">
          <div class="container ">
                 <h4 class="service_card">Sign up and Scoot off today</h4>
                 <a href="#" class="service_link"><img src="./images/Group 28.png" alt="rasm">.</a>
@@ -93,7 +102,10 @@
          </div>
        </div>
 <!-- -----------------------------------------------------------------------------------foother------------------------------------------------------------------- -->
-       <div class="foother">
+       <div class="foother" data-aos="fade-left"
+       data-aos-anchor="#example-anchor"
+       data-aos-offset="500"
+       data-aos-duration="500">
            <div class="container foother__container">
                <img src="./images/scoot.png" alt="rasm">
                <ul class="foother_navbar">
