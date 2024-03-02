@@ -1,0 +1,369 @@
+/* space-mono-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* space-mono-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/space-mono-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+.button:hover{
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+}
+.header__container{
+   padding-top: 20px;
+}
+.header{
+    width: 1440px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar_list{
+    margin-left: 50px;
+    width: 249px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.header_button{
+    position: relative;
+    width: 180px;
+    height: 53px;
+    left: 480px;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #FCB72B;
+    color: white;
+    border-radius: 5px;
+    border: transparent;    
+}
+.header_link{
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #939CAA;    
+}
+/* -------------------------------------------------------------------------------------HERO--------------------------------------------------------------------0 */
+.hero{
+    width: 1440px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../images/Bitmap.png");
+    background: #495567;
+    opacity: 1;
+}
+.hero_item{
+    position: relative;
+    font-family: Space Mono;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    width: 500px;
+    height: 112px;
+    top: 157px;
+    left: 11px;
+    color: white;
+}
+.hero_card{
+    position: relative;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 405px;
+    height: 100px;
+    top: 170px;
+    left: 106px;
+    color: white;    
+}
+.hero_button{
+    position: relative;
+    width: 180px;
+    height: 53px;
+    top: 189px;
+    left: 106px;
+    background-color: #FCB72B;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    border: transparent;
+    border-radius: 5px;    
+}
+.hero_images{
+    position: relative;
+    width: 202.5px;
+    top: -101px;
+    left: -600px;
+    border: 15px; }
+.hero_img{
+    position: relative;
+    width: 446.38px;
+    top: 34px;
+    left: 551px;
+    border: 15px;
+}
+/* ------------------------------------------------------------------------------------MAIN--------------------------------------------------------------- */
+.main{
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+   }
+.main_navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.main_navbar_list{
+    width: 300px;
+    margin-top: 100px;
+}
+.main_item{
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    color: #495567;
+    width: 350px;
+    height: 28px;
+    top: 1042px;
+    left: 165px;  
+}
+.main_card{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 350px;
+    height: 100px;
+    top: 1097px;
+    left: 165px;
+    color: #939CAA;   
+}
+.main_hero{
+    margin-top: 100px;
+    display: flex;
+   justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.main_hero_cards{
+    width: 445px;
+    height: 100px;
+    top: 2188px;
+    left: 830px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #939CAA;
+}
+.main_hero_item{
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    width: 445px;
+    height: 96px;
+    top: 1463px;
+    left: 165px;
+    color: #495567;
+}
+.main_hero_button{
+    width: 180px;
+    height: 53px;
+    top: 1723px;
+    left: 165px;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FCB72B;
+    border: transparent;
+    border-radius: 5px;    
+}
+.main__img{
+    position: relative;
+    left: 500px;
+    width: 500px;
+}
+.main_images{
+    position: relative;
+    top: -250px;
+    left: -950px;
+}
+.main_img{
+    border-radius: 50%
+}
+.main_hero_img{
+    position: relative;
+    top: -200px;
+    right: -750px;
+}
+.main_hero_images{
+    position: relative;
+    top: -500px;
+    left: 1350px;
+}
+/* ----------------------------------------------------------------------------service----------------------------------------------------- */
+.service{
+    width: 1440px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background-color: #495567;
+    margin-top: 40px;
+ }
+ .service_link{
+    position: relative;
+    width: 159px;
+    height: 106px;
+    background: #E5ECF4;
+    align-items: center;
+    border: 1px solid #E5ECF4;
+ }
+ .link_card{
+    position: relative;
+    top:  -25px;
+    left: 70px;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.8928571343421936px;
+    text-align: left;
+    
+ }
+ .link_item{
+    position: relative;
+    top: -15px;
+    font-family: Space Mono;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.4464285671710968px;
+    text-align: left;
+ }
+ .service_card{
+    position: relative;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    width: 415px;
+    height: 96px;
+    top: 146px;
+    color: #FFFFFF;
+ }
+ .service_link{
+   position: relative;
+   left: 700px;
+   top: -100px;
+ }
+ .service_img{
+    position: relative;
+    top: 100px;
+ }
+ .service_images{
+    position: relative;
+    top: 100px;
+ }
+ .service__img{
+    position: relative;
+    top: -80px;
+    left: 1100px;
+ }
+ /* ---------------------------------------------------------------------------foother------------------------------------------------------------------------ */
+ .foother{
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background-color: #193f79;
+ }
+ .foother__container{
+    position: relative;
+    display: flex;
+    align-items: center;
+ }
+ .foother_navbar{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-left: 100px;
+ }
+ .foother_link{
+    margin-top: 20px;
+    margin-left: 400px;
+ }
+ .foother_navbar_link{
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #939CAA;
+    
+ }
